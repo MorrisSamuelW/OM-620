@@ -1,0 +1,16 @@
+name: Feature Request
+description: A new feature you'd like to see implemented.
+labels: "enhancement"
+body:
+  - type: input
+    attributes:
+      label: Program Name
+      description: Which program you'd like to request a feature for.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: A description of the feature, in as much detail as you can provide.
+    validations:
+      required: true

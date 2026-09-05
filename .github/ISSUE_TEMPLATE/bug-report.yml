@@ -1,0 +1,26 @@
+name: Bug Report
+description: Issue with a program not working.
+labels: "bug"
+body:
+  - type: input
+    attributes:
+      label: Program Name
+      description: Which program you're experiencing an issue with.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version
+      description: Which version of the program you're using. Each program will have its own way of checking the version.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: A description of the bug, in as much detail as you can provide.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Error Messages
+      description: If there are any, copy and paste any error messages that appeared.
